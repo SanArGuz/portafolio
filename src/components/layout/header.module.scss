@@ -34,3 +34,14 @@
     }
   }
 }
+
+@media (max-width: 800px) {
+  .grid {
+    ul {
+      display: none;
+    }
+    h2 {
+      margin: 20px auto;
+    }
+  }
+}
