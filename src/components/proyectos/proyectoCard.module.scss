@@ -1,0 +1,28 @@
+@import '../../styles/pages/vars.scss';
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $gray-dark;
+
+  h1 {
+    color: $pink;
+  }
+
+  a {
+    align-self: flex-end;
+    margin-right: 20px;
+    text-decoration: underline;
+
+    &:hover {
+      cursor: pointer;
+      color: $pink;
+    }
+  }
+
+  ul {
+    max-width: 400px;
+  }
+}

@@ -1,0 +1,36 @@
+@import '../../styles/pages/vars.scss';
+
+.header {
+  border-bottom: 1px solid #e4e6ea;
+}
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: R;
+  font-family: $font-family;
+
+  h2 {
+    font-size: 36px;
+    color: $blue;
+    font-weight: bold;
+
+    span {
+      font-weight: 300;
+    }
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    font-size: 20px;
+    color: $gray;
+
+    li:hover {
+      color: $gray-dark;
+    }
+  }
+}

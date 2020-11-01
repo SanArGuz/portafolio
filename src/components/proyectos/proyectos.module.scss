@@ -1,0 +1,17 @@
+@import '../../styles/pages/vars.scss';
+
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+
+  h1 {
+    color: $blue;
+  }
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}

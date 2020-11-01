@@ -1,0 +1,25 @@
+@import '../../styles/pages/vars.scss';
+.container {
+  background: rgb(226, 228, 232);
+  background: linear-gradient(
+    180deg,
+    rgba(226, 228, 232, 1) 0%,
+    rgba(255, 255, 255, 1) 28%
+  );
+}
+
+.grid {
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+
+  h1 {
+    margin: 0;
+    color: $blue;
+  }
+
+  p {
+    color: $gray-dark;
+    font-size: 20px;
+  }
+}
