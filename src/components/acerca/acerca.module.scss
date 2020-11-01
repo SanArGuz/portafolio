@@ -23,3 +23,16 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 800px) {
+  .grid {
+    h1 {
+      margin-left: 10px;
+    }
+
+    p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
