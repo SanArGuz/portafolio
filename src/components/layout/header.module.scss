@@ -21,25 +21,10 @@
       font-weight: 300;
     }
   }
-
-  ul {
-    display: flex;
-    list-style: none;
-    gap: 1rem;
-    font-size: 20px;
-    color: $gray;
-
-    li:hover {
-      color: $gray-dark;
-    }
-  }
 }
 
 @media (max-width: 800px) {
   .grid {
-    ul {
-      display: none;
-    }
     h2 {
       margin: 20px auto;
     }
