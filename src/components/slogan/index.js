@@ -9,7 +9,7 @@ export default function Slogan() {
           <h1 className={styles.title}>Proyectos personales</h1>
 
           <p className={styles.description}>
-            Una muetra de lo que podemos construir juntos
+            Una muestra de lo que podemos construir juntos
           </p>
 
           <div className={styles.images_container}>
